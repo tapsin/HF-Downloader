@@ -1,0 +1,22 @@
+{
+  "name": "hf-downloader",
+  "version": "0.1.0",
+  "description": "Hugging Face model, dataset and repository downloader",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron .",
+    "dev": "electron .",
+    "dist": "electron-builder"
+  },
+  "devDependencies": {
+    "electron": "^31.0.0",
+    "electron-builder": "^24.13.3"
+  },
+  "build": {
+    "appId": "com.hfdownloader.app",
+    "productName": "HF Downloader",
+    "files": ["src/**/*", "package.json"],
+    "linux": { "target": ["AppImage", "deb"] },
+    "win": { "target": ["nsis", "portable"] }
+  }
+}
