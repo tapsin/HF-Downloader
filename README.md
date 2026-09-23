@@ -21,10 +21,7 @@ pip install -U huggingface_hub
 npm run dist
 ```
 
-## Creator
-
-Created by TAPSIN
-# DONATE:
+## DONATE
 
 <table border="1">
 <tr><td>USDT TRC20</td><td><code>TYCK6ZyMS6UDt787foPH2QwFuvkdqMw1Jv</code></td></tr>
